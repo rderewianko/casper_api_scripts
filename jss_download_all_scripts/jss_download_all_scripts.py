@@ -118,7 +118,7 @@ def write_file(path, name, text):
     """
     Write script content to a file.
     """
-    file = open(os.path.join(path, name + '.txt'), 'w')
+    file = open(os.path.join(path, name + '.sh'), 'w')
     file.write(text)
     file.close()
         
